@@ -4,7 +4,7 @@
 
 I build practical web and mobile products with clear interfaces and dependable backends. Based in Nairobi, Kenya.
 
-[View my interactive Three.js portfolio](https://code-ninja-james.github.io/code-ninja-james/) · [LinkedIn](https://linkedin.com/in/jameson-githinji/) · [Stack Overflow](https://stackoverflow.com/users/11720534)
+· [LinkedIn](https://linkedin.com/in/jameson-githinji/) · [Stack Overflow](https://stackoverflow.com/users/11720534)
 
 ## Selected work
 
