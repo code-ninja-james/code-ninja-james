@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jameson Githinji — software developer building useful web and mobile products with JavaScript, React, React Native and Node.js." />
+  <meta name="theme-color" content="#f1efe8" />
+  <title>Jameson Githinji — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="mark" href="#top" aria-label="Jameson Githinji, home">JG<span>26</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="availability" href="mailto:jamesongithinji99@gmail.com"><i></i>Available for work</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow reveal">Nairobi, Kenya <span>•</span> Software developer</p>
+      <h1 class="reveal">I build digital<br>products that feel<br><em>clear &amp; alive.</em></h1>
+      <div class="hero-foot reveal">
+        <p>JavaScript developer focused on considered interfaces, dependable APIs and mobile experiences that solve real problems.</p>
+        <a class="round-link" href="#work" aria-label="View selected work"><span>View work</span><b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Technology stack">
+      <div>JavaScript <i>✦</i> React <i>✦</i> React Native <i>✦</i> Node.js <i>✦</i> Express <i>✦</i> TypeScript <i>✦</i> GraphQL <i>✦</i> SQL</div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="section-head reveal">
+        <p>01 / Selected work</p>
+        <h2>Built to be used,<br>not just viewed.</h2>
+      </div>
+
+      <article class="project reveal">
+        <div class="project-no">01</div>
+        <div>
+          <p class="project-type">Mobile product / Full stack</p>
+          <h3>BodaApp</h3>
+          <p>A mobile experience connecting riders and customers, backed by a practical Express API.</p>
+          <ul><li>React Native</li><li>Express</li><li>Node.js</li></ul>
+        </div>
+        <a href="https://github.com/code-ninja-james/BodaApp" target="_blank" rel="noreferrer" aria-label="View BodaApp on GitHub">↗</a>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-no">02</div>
+        <div>
+          <p class="project-type">Property platform / Full stack</p>
+          <h3>Nyumba</h3>
+          <p>A focused house-listing product designed to make discovering a place to live less complicated.</p>
+          <ul><li>React Native</li><li>Node.js</li><li>REST API</li></ul>
+        </div>
+        <a href="https://github.com/code-ninja-james/Nyumba" target="_blank" rel="noreferrer" aria-label="View Nyumba on GitHub">↗</a>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-no">03</div>
+        <div>
+          <p class="project-type">Developer tooling / Backend</p>
+          <h3>GraphQL TS Server</h3>
+          <p>A reusable TypeScript server foundation for building typed, maintainable GraphQL APIs.</p>
+          <ul><li>GraphQL</li><li>TypeScript</li><li>Node.js</li></ul>
+        </div>
+        <a href="https://github.com/code-ninja-james/jim_graphql-ts-server-boilerplate" target="_blank" rel="noreferrer" aria-label="View GraphQL server on GitHub">↗</a>
+      </article>
+    </section>
+
+    <section id="about" class="about">
+      <div class="portrait reveal">
+        <div class="portrait-frame"><img src="https://avatars.githubusercontent.com/u/47845518?v=4" alt="Jameson Githinji" /></div>
+        <p>Based in Nairobi<br>Working everywhere</p>
+      </div>
+      <div class="about-copy reveal">
+        <p class="label">02 / About</p>
+        <h2>Technology should earn its place.</h2>
+        <p>I’m Jameson, an Information Technology graduate from Kabarak University. I turn ideas into straightforward, useful software—with close attention to the people using it and the systems keeping it running.</p>
+        <p>My work spans web interfaces, mobile applications and backend services. I value readable code, honest collaboration and products that make sense without an instruction manual.</p>
+        <div class="facts">
+          <div><b>BSc</b><span>Information Technology</span></div>
+          <div><b>2024</b><span>Kabarak University</span></div>
+          <div><b>KE</b><span>Nairobi, Kenya</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="label reveal">03 / Contact</p>
+      <h2 class="reveal">Have something<br>worth building?</h2>
+      <a class="email reveal" href="mailto:jamesongithinji99@gmail.com">Let’s talk <span>↗</span></a>
+      <footer>
+        <p>© <span id="year"></span> Jameson Githinji</p>
+        <div><a href="https://github.com/code-ninja-james" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/jameson-githinji/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://stackoverflow.com/users/11720534" target="_blank" rel="noreferrer">Stack Overflow</a></div>
+      </footer>
+    </section>
+  </main>
+
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}</script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
